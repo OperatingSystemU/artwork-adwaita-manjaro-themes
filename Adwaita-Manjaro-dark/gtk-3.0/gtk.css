@@ -1,5 +1,7 @@
 @import url("resource:///org/gnome/adwaita/gtk-main.css");
 
+/* fix white text error in GTK 3.10 */
+@define-color theme_text_color #393F3F;
 
 /* default color scheme */
 @define-color selected_bg_color #aeaeae;
