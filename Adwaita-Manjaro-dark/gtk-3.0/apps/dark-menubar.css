@@ -1,11 +1,19 @@
 /* Dark Menubar */
 
 .menubar {
-    color: #a8a8a8;
+    color: #ffffff;
     background-color: #202020;
     background-image: linear-gradient(to top,
                                       #202020,
                                       #282828);
+}
+
+/***************
+ * menubaritem *
+ ***************/
+.menubar.menuitem:hover,
+.menubar .menuitem:hover {
+    color: #202020;
 }
 
 /* Contacts. Button for dark toolbar */
